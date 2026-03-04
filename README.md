@@ -12,17 +12,15 @@ Features:
 Everything is in plain .py scripts — no notebooks, no complicated setup.
 
 ### Folder structure
-
 src/
-├── 00_download_data.py       # downloads tiny parallel data + vocab helper
-├── 01_tokenize_and_bpe.py    # tokenization + trains/applies BPE
-├── 02_vocab_and_arrays.py    # builds vocab + converts text → numpy arrays
-├── models_basic.py           # plain seq2seq (no attention)
-├── models_attention.py       # seq2seq + attention
-├── metrics.py                # BLEU calculation
-├── train_basic.py            # trains the basic model
-└── train_attention.py        # trains the attention model
-
+- 00_download_data.py - downloads tiny parallel data + vocab helper
+- 01_tokenize_and_bpe.py - tokenization + trains/applies BPE
+- 02_vocab_and_arrays.py - builds vocab + converts text → numpy arrays
+- models_basic.py - plain seq2seq (no attention)
+- models_attention.py - seq2seq + attention
+- metrics.py - BLEU calculation
+- train_basic.py - trains the basic model
+- train_attention.py - trains the attention model
 
 ### Quick start (step by step)
 
