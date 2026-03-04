@@ -1,6 +1,3 @@
-Вот версия README.md **на английском** и в стиле «один файл», простой, студенческий, без лишней воды:
-
-```markdown
 # Toy Seq2Seq GRU + Attention (Mini Machine Translation)
 
 Super simple encoder-decoder model in PyTorch for translating sentences (English ↔ Russian).  
@@ -16,7 +13,6 @@ Everything is in plain .py scripts — no notebooks, no complicated setup.
 
 ### Folder structure
 
-```
 src/
 ├── 00_download_data.py       # downloads tiny parallel data + vocab helper
 ├── 01_tokenize_and_bpe.py    # tokenization + trains/applies BPE
@@ -26,7 +22,7 @@ src/
 ├── metrics.py                # BLEU calculation
 ├── train_basic.py            # trains the basic model
 └── train_attention.py        # trains the attention model
-```
+
 
 ### Quick start (step by step)
 
