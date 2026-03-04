@@ -1,0 +1,8 @@
+torch>=1.3.0
+subword-nmt
+numpy
+nltk
+tqdm
+matplotlib
+vocab
+ipython
